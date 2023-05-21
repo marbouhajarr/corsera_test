@@ -1,1 +1,21 @@
+-goodbye.js
 
+function(x){
+	var y = "Goodbye";
+	var Byespeaker = function(name){
+		console.log(y + "" + name);
+	}
+	x.Byespeaker=Byespeaker; 
+}(x);
+
+-hello.js
+
+function(x){
+	var y = "Hello";
+	var Hellospeaker = function(name){
+		console.log(y + "" + name);
+	}
+	 x.Hellospeaker=Hellospeaker;
+}(x);
+
+-
